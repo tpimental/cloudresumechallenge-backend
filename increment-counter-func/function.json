@@ -16,6 +16,14 @@
       "name": "res"
     },
     {
+      "name": "inputDocumentIn",
+      "type": "cosmosDB",
+      "databaseName": "database1",
+      "collectionName": "container1",
+      "connectionStringSetting": "CosmosDbConnectionString",
+      "direction": "in"
+    },
+    {
       "type": "cosmosDB",
       "direction": "out",
       "name": "outputDocument",
